@@ -23,8 +23,8 @@ env/
 # Streamlit
 .streamlit/
 
-# User configuration
-config.json
+# Local state
+debate.json
 
 # System files
 .DS_Store

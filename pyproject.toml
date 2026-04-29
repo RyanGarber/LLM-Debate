@@ -2,10 +2,12 @@
 name = "llm-debate"
 version = "0.0.0"
 description = "Add your description here"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
-    "ai-sdk-python>=0.1.1",
+    "asyncio>=4.0.0",
     "black>=26.3.1",
+    "pydantic>=2.13.3",
+    "pydantic-ai>=1.87.0",
     "python-dotenv>=1.2.2",
-    "streamlit>=1.55.0",
+    "streamlit>=1.57.0",
 ]
